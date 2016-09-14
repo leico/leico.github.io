@@ -6,6 +6,12 @@
       , "contents"  : "./html/profile.html"
   }
   , {
+        "title"       : "Notes"
+      , "description" : null
+      , "type"        : "html"
+      , "contents"    : "./html/notes.html"
+    }
+  , {
         "title"       : "craftman's wall"
       , "description" : "11120 x 8431px, 841 x 594mm A1<br />Apophysis, flam3"
       , "type"        : "image"
