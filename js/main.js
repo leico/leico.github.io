@@ -259,17 +259,25 @@
 
     $('#bg')
       .append(
-        $(data.contents)
+        $('<div>')
         .addClass('center')
-        .hide()
-        .stop()
-        .fadeIn(5000)
+        .css({
+            width  : '80%'
+          , height : '80%'
+        })
+        .append(
+          $(data.contents)
+          .addClass('center')
+          .hide()
+          .stop()
+          .fadeIn(5000)
+        )
       )
       .click(function(){
         
         $(this)
           .unbind('click')
-          .children('iframe')
+          .children('div')
             .stop()
             .fadeOut(2000, function(){ $(this).remove(); })
           .end();
