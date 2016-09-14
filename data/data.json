@@ -48,7 +48,7 @@
         "title" : "@OSCtter"
       , "description" : "Play with twitter over OSC<br />Max, C, javascript, PHP<br />jQuery, Twitter Streaming API, SoundCloud API, libcurl, MaxSDK<br />Vine"
       , "type"        : "youtube"
-      , "contents"  :  "<iframe width=\"1280\" height=\"720\" src=\"\/\/www.youtube.com\/embed\/ckrZhHWd8f4?rel=0\" frameborder=\"0\" allowfullscreen><\/iframe>"
+      , "contents"  :  "<iframe src=\"\/\/www.youtube.com\/embed\/ckrZhHWd8f4?rel=0\" frameborder=\"0\" allowfullscreen><\/iframe>"
     }
 
 ]
