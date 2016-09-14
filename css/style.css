@@ -80,6 +80,5 @@ div.icon>h3{
   height   : 20%;
   top      : 70%;
   
-  overflow-x : scroll;
-  overflow-y : hidden;
+  overflow : visible;
 }
